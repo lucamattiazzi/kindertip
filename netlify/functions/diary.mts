@@ -7,7 +7,10 @@ function error(code: number, msg: string) {
 function getDates(from: Date, to: Date): string[] {
   const list: string[] = []
   while (from <= to) {
-    list.push(from.toISOString().split("T")[0])
+    const weekDay = from.getDay()
+    if (weekDay !== 0 && weekDay !== 6) {
+      list.push(from.toISOString().split("T")[0])
+    }
     from = new Date(from.valueOf())
     from.setDate(from.getDate() + 1)
   }
