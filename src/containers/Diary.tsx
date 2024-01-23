@@ -34,6 +34,7 @@ export function DiaryComponent(p: DiaryProps) {
       <h1 className="text-3xl text-bold text-center mb-3">Food Preferences</h1>
       <p className="text-xxs text-center">Weighted rating is computed </p>
       <div className="ag-theme-quartz" style={{ height: 500 }}>
+        // @ts-ignore
         <AgGridReact rowData={rowData} columnDefs={columns} />
       </div>
     </>
