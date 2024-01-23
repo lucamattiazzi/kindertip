@@ -8,7 +8,7 @@ function getDates(from: Date, to: Date): string[] {
   const list: string[] = []
   while (from <= to) {
     const weekDay = from.getDay()
-    if (weekDay !== 0 && weekDay !== 6) {
+    if ([1, 2, 3, 4, 5].includes(weekDay)) {
       list.push(from.toISOString().split("T")[0])
     }
     from = new Date(from.valueOf())
