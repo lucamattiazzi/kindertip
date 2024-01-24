@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react"
 
 const FINAL_TEXT = "CARICAMENTO"
-const SYMBOLS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ.
-  "
+const SYMBOLS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 function getRandomSymbol() {
   const random = Math.floor(Math.random() * SYMBOLS.length)

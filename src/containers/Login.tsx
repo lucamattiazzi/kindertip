@@ -31,7 +31,7 @@ export function Login(p: LoginProps) {
   return (
     <form onSubmit={getKidDiary}>
       <div className="mb-6 text-center">
-        Login using your KinderTap credentials
+        Fai login con le credenziali di KinderTap
       </div>
       <div className="flex flex-col items-center justify-around">
         <input className="mb-2 px-2" onInput={setUsername} type="text" placeholder="Username" value={username} />
@@ -40,11 +40,11 @@ export function Login(p: LoginProps) {
 
       <div className="flex justify-center text-xs mb-8">
         <input id="remember" type="checkbox" checked={remember} onChange={setRemember}/>
-        <label htmlFor="remember">Remember login</label>
+        <label htmlFor="remember">Salva le credenziali in locale</label>
       </div>
 
       <div className="flex justify-center text-sm mb-8">
-        <input className="bg-sky-500 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded" type="submit" value="Get kid Diary" />
+        <input className="bg-sky-500 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded" type="submit" value="Accedi" />
       </div>
     </form>
   )
