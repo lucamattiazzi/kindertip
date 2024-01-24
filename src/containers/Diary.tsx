@@ -70,11 +70,11 @@ function DesktopDiaryComponent(p: DeviceDiaryProps) {
 export function DiaryComponent(p: DiaryProps) {
   const bestFoods = getBestFoods(p.diary)
   const columns: ColDef[] = [
-    { field: "name", headerName: "Meal"},
-    { field: "weightedRating", headerName: "Weighted Rating", cellRenderer: (p: RendererProps<number>) => p.value.toFixed(2) },
-    { field: "votes", headerName: "Trend", cellRenderer: TrendRenderer },
-    { field: "votes", headerName: "Occurrences", cellRenderer: (p: RendererProps<number[]>) => p.value.length },
-    { field: "avg", headerName: "Average Rating", cellRenderer: (p: RendererProps<number>) => p.value.toFixed(2)},
+    { field: "name", headerName: "Meal", suppressMovable: true },
+    { field: "weightedRating", headerName: "Weighted Rating", suppressMovable: true, cellRenderer: (p: RendererProps<number>) => p.value.toFixed(2) },
+    { field: "votes", headerName: "Trend", suppressMovable: true, cellRenderer: TrendRenderer },
+    { field: "votes", headerName: "Occurrences", suppressMovable: true, cellRenderer: (p: RendererProps<number[]>) => p.value.length },
+    { field: "avg", headerName: "Average Rating", suppressMovable: true, cellRenderer: (p: RendererProps<number>) => p.value.toFixed(2)},
   ]
   return (
     <>
