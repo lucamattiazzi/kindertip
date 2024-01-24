@@ -4,16 +4,25 @@ import { extractKid, refinePages } from "./utils"
 
 async function getDiaryPages(token: string, id: string): Promise<RawDiaryPage[]> {
   if (IS_DEV) return fetch("/diary.json").then(r => r.json())
+  let currentNextDate = null
+  const completeResponse = []
   const location = id.split(".")[0]
-  const response = await fetch('/.netlify/functions/diary', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({ token, id, location }),
-  })
-  const data = await response.json()
-  return data
+  // eslint-disable-next-line no-constant-condition
+  while (true) {
+    const response = await fetch('/.netlify/functions/diary', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ token, id, location, nextDate: currentNextDate }),
+    })
+    const data = await response.json()
+    const { results, nextDate } = data
+    completeResponse.push(...results)
+    if (!nextDate) break
+    currentNextDate = nextDate
+  }
+  return completeResponse
 }
 
 export async function getAuth(username: string, password: string): Promise<Auth> {

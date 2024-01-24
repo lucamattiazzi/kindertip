@@ -1,10 +1,12 @@
 const START_DATE = new Date(2023, 9, 5) // creation date of kindertap for kindergarden
+const MAX_DURATION = 6000 // 6 seconds
+const BATCH_SIZE = 10
 
-function error(code: number, msg: string) {
-  return new Response(msg, { status: code })
-}
+interface DiaryResult extends Record<string, string | number> { }
 
-function getDates(from: Date, to: Date): string[] {
+const error = (code: number, msg: string) => new Response(msg, { status: code })
+
+function buildDatesList(from: Date, to: Date): string[] {
   const list: string[] = []
   while (from <= to) {
     const weekDay = from.getDay()
@@ -18,21 +20,33 @@ function getDates(from: Date, to: Date): string[] {
 }
 
 export default async (evt: Request) => {
+  const start = Date.now()
   if (evt.method !== 'POST') return error(405, 'Method Not Allowed')
-  const { token, id, location } = await evt.json()
+  const { token, id, location, startDate = START_DATE } = await evt.json()
   if (!token || !id || !location) return error(400, 'Missing token/id/location')
-  const dates = getDates(START_DATE, new Date())
-  const foodsPromise = dates.map(async date => {
-    const url = `https://api.kindertap.com/v1/cust/${location}/diary?kid=${id}&date=${date}&device=web-parent`
-    const response = await fetch(url, {
-      headers: {
-        'Content-Type': 'application/json',
-        cookie: `token=${token}`
-      }
+  const firstDate = new Date(startDate)
+  const dates = buildDatesList(firstDate, new Date())
+  let i = 0
+  const results: DiaryResult[] = []
+  while (Date.now() - start < MAX_DURATION) {
+    if (i >= dates.length) break
+    const batch = dates.slice(i, i + BATCH_SIZE)
+    const promises = batch.map(async date => {
+      const url = `https://api.kindertap.com/v1/cust/${location}/diary?kid=${id}&date=${date}&device=web-parent`
+      const response = await fetch(url, {
+        headers: {
+          'Content-Type': 'application/json',
+          cookie: `token=${token}`
+        }
+      })
+      const body = await response.json() as DiaryResult
+      return body
     })
-    const body = await response.json()
-    return body
-  })
-  const payload = await Promise.all(foodsPromise)
+    const batchResults = await Promise.all(promises)
+    results.push(...batchResults)
+    i += BATCH_SIZE
+  }
+  const nextDate = i < dates.length ? dates[i] : null
+  const payload = { results, nextDate }
   return new Response(JSON.stringify(payload))
 }
