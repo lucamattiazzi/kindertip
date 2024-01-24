@@ -43,7 +43,7 @@ export function MobileDiaryComponent(p: DeviceDiaryProps) {
   return (
     <>
       <div className="flex flex-row items-center pb-2">
-        <div className="px-2">See:</div>
+        <div className="px-2">Dato:</div>
         <div className="w-full">
           <Select
             options={selectOptions}
@@ -70,15 +70,15 @@ function DesktopDiaryComponent(p: DeviceDiaryProps) {
 export function DiaryComponent(p: DiaryProps) {
   const bestFoods = getBestFoods(p.diary)
   const columns: ColDef[] = [
-    { field: "name", headerName: "Meal", suppressMovable: true },
+    { field: "name", headerName: "Piatto", suppressMovable: true },
     { field: "weightedRating", headerName: "Rating", suppressMovable: true, cellRenderer: (p: RendererProps<number>) => p.value.toFixed(2) },
     { field: "votes", headerName: "Trend", suppressMovable: true, cellRenderer: TrendRenderer },
-    { field: "votes", headerName: "Occurrences", suppressMovable: true, cellRenderer: (p: RendererProps<number[]>) => p.value.length },
-    { field: "avg", headerName: "Average", suppressMovable: true, cellRenderer: (p: RendererProps<number>) => p.value.toFixed(2)},
+    { field: "votes", headerName: "Occorrenze", suppressMovable: true, cellRenderer: (p: RendererProps<number[]>) => p.value.length },
+    { field: "avg", headerName: "Media", suppressMovable: true, cellRenderer: (p: RendererProps<number>) => p.value.toFixed(2)},
   ]
   return (
     <>
-      <h1 className="text-xl text-bold text-center mb-2">Meals by Preference</h1>
+      <h1 className="text-xl text-bold text-center mb-2">Piatti</h1>
       <BrowserView>
         <DesktopDiaryComponent bestFoods={bestFoods} columns={columns} />
       </BrowserView>
