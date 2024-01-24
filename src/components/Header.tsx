@@ -6,7 +6,7 @@ export function Header(p: HeaderProps) {
   return (
     <div>
       <h1 className="text-3xl text-center font-bold mb-1">KinderTip</h1>
-      <p className="px-6 text-xxs text-center">or: how to use your kid's KinderTap diary to see cool numbers and plots.</p>
+      <p className="px-6 text-xxs text-center">trasformare il diario di KinderTip in numeri e grafici.</p>
       <div className="flex justify-around items-center mb-4">
         <a href="https://github.com/lucamattiazzi/kindertip" target="_blank">
           <img width="25" height="30" src="/github.png" />
