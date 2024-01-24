@@ -71,14 +71,14 @@ export function DiaryComponent(p: DiaryProps) {
   const bestFoods = getBestFoods(p.diary)
   const columns: ColDef[] = [
     { field: "name", headerName: "Meal", suppressMovable: true },
-    { field: "weightedRating", headerName: "Weighted Rating", suppressMovable: true, cellRenderer: (p: RendererProps<number>) => p.value.toFixed(2) },
+    { field: "weightedRating", headerName: "Rating", suppressMovable: true, cellRenderer: (p: RendererProps<number>) => p.value.toFixed(2) },
     { field: "votes", headerName: "Trend", suppressMovable: true, cellRenderer: TrendRenderer },
     { field: "votes", headerName: "Occurrences", suppressMovable: true, cellRenderer: (p: RendererProps<number[]>) => p.value.length },
-    { field: "avg", headerName: "Average Rating", suppressMovable: true, cellRenderer: (p: RendererProps<number>) => p.value.toFixed(2)},
+    { field: "avg", headerName: "Average", suppressMovable: true, cellRenderer: (p: RendererProps<number>) => p.value.toFixed(2)},
   ]
   return (
     <>
-      <h1 className="text-2xl text-bold text-center mb-2">Meals by Preference</h1>
+      <h1 className="text-xl text-bold text-center mb-2">Meals by Preference</h1>
       <BrowserView>
         <DesktopDiaryComponent bestFoods={bestFoods} columns={columns} />
       </BrowserView>
