@@ -758,6 +758,18 @@ acorn@^8.9.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.11.3.tgz#71e0b14e13a4ec160724b38fb7b0f233b1b81d7a"
   integrity sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==
 
+ag-charts-community@^9.0.2:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/ag-charts-community/-/ag-charts-community-9.0.2.tgz#bb31bd217a2d332c26cd24be612f0a78c2ce9093"
+  integrity sha512-ZNiKbe/Pz+EXeAzErehGcFKRJHfsslRKSW+6GGG3Sto0PVBjlD6YvRC+7h4YJ+UaHayxmsZYmxwNoJzSeOG5Nw==
+
+ag-charts-react@^9.0.2:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/ag-charts-react/-/ag-charts-react-9.0.2.tgz#66cda2cca19df826b709e585391c8eaf9d072513"
+  integrity sha512-n4DzvAjrOW0/1+DaTH3MjrXkREDAdJIIJIlR8KJhAlG0AOrxEO2DdSTAygmjiU1RPHRwP1eiLaOf6z0WdbAd8A==
+  dependencies:
+    prop-types "^15.6.2"
+
 ag-grid-community@~31.0.2:
   version "31.0.2"
   resolved "https://registry.yarnpkg.com/ag-grid-community/-/ag-grid-community-31.0.2.tgz#8421c4e23e29205628281c1258808e83dccdada2"
@@ -2270,6 +2282,11 @@ vite@^5.0.8:
     rollup "^4.2.0"
   optionalDependencies:
     fsevents "~2.3.3"
+
+weeknumber@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/weeknumber/-/weeknumber-1.2.1.tgz#f407e7a2eaef1e625610404d1dcbab845b891e85"
+  integrity sha512-F5AbhjKQhRDHweBnDuYRiJvS9/2f19/3/431+ZiZQb/jTgLKuAg8kwZzgS9/9a1SyA1KeJPEfQpf6dggaw7NBg==
 
 which@^2.0.1:
   version "2.0.2"

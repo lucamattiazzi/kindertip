@@ -1,0 +1,13 @@
+{
+  "title": "Come funzionano questi grafici?",
+  "content": [
+    {
+      "text": "Il diario di tutti i giorni viene raggruppato per settimana/mese/anno e per ogni gruppo viene costruito un grafico.",
+      "classes": ""
+    },
+    {
+      "text": "Come per la classifica dei piatti, ogni pasto consumato è convertito in punteggio: Tutto = 10, Quasi Tutto = 7, Assaggio = 3, Niente = 0.",
+      "classes": ""
+    }
+  ]
+}

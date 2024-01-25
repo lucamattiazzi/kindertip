@@ -1,0 +1,25 @@
+{
+  "title": "Come funziona questa tabella?",
+  "content": [
+    {
+      "text": "È possibile vedere una classifica di quali piatti siano stati i più apprezzati dai bambini, e quali invece siano stati i meno apprezzati. Vengono solo mostrati i piatti che sono stati serviti almeno 2 volte.",
+      "classes": ""
+    },
+    {
+      "text": "Il dato di partenza è quanto è stato mangiato del piatto, convertito in punteggio: Tutto = 10, Quasi Tutto = 7, Assaggio = 3, Niente = 0.",
+      "classes": ""
+    },
+    {
+      "text": "Il rating è un punteggio che tiene conto sia della media dei punti sia del numero di volte in cui il piatto è stato servito, premiando piatti con voti alti per più volte.",
+      "classes": ""
+    },
+    {
+      "text": "La media è la sempice media aritmetica dei punti.",
+      "classes": ""
+    },
+    {
+      "text": "Il trend ed il numero di occorrenze sono autoesplicativi.",
+      "classes": ""
+    }
+  ]
+}

@@ -10,7 +10,7 @@ import { Diary, FoodRating } from "../lib/types"
 import { getBestFoods } from "../lib/utils"
 
 interface DiaryProps {
-  diary: Diary
+  diary?: Diary
 }
 
 interface DeviceDiaryProps {
@@ -68,6 +68,7 @@ function DesktopDiaryComponent(p: DeviceDiaryProps) {
 }
 
 export function DiaryComponent(p: DiaryProps) {
+  if (!p.diary) return (<></>)
   const bestFoods = getBestFoods(p.diary)
   const columns: ColDef[] = [
     { field: "name", headerName: "Piatto", suppressMovable: true },

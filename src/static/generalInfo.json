@@ -1,0 +1,29 @@
+{
+  "title": "Cos'è questo sito?",
+  "content": [
+    {
+      "text": "1 - né io né questo sito siamo collegati direttamente a KinderTap, ne usiamo solo i dati.",
+      "classes": ""
+    },
+    {
+      "text": "2 - non ricevo né mi salvo nessun vostro dato, potete scegliere di salvare l'accesso (per circa 3 mesi), e in tal caso SOLO SUL VOSTRO BROWSER verrà salvata l'autenticazione.",
+      "classes": ""
+    },
+    {
+      "text": "3 - questo sito è e resterà ovviamente gratuito e open source, in homepage trovate codice e un'email dove contattarmi se volete.",
+      "classes": ""
+    },
+    {
+      "text": "ATTENZIONE: roba un po' tecnica ora.",
+      "classes": "font-bold"
+    },
+    {
+      "text": "Il sito è hostato da Netlify, e usa due Netlify functions (tipo lambda di aws diciamo) per aggirare le regole CORS implementate dal servet di KinderTap. Le funzioni non si salvano nulla, né loggano, ma potete controllare dal codice appunto.",
+      "classes": ""
+    },
+    {
+      "text": "Sempre sul repository, linkato in homepage o <a className=\"text-red-700\" href=\"https: //www.youtube.com/watch?v=dQw4w9WgXcQ\" target=\"_blank\">qui</a> potete aprire issues, ed eventuali PR sono benvenute!",
+      "classes": ""
+    }
+  ]
+}
