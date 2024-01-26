@@ -1,5 +1,5 @@
 const START_DATE = new Date(2023, 9, 5) // creation date of kindertap for kindergarden
-const MAX_DURATION = 6000 // 6 seconds
+const MAX_DURATION = 8000 // 6 seconds
 const BATCH_SIZE = 10
 
 interface DiaryResult extends Record<string, string | number> { }
