@@ -1,0 +1,13 @@
+{
+  "title": "Come funzionano questi grafici?",
+  "content": [
+    {
+      "text": "Questi grafici ci danno informazioni sui diversi giorni della settimana: il primo mostra andamento per ogni giorno per tutte le settimane di cui abbiamo i dati.",
+      "classes": ""
+    },
+    {
+      "text": "Il secondo mostra la media per ogni giorno della settimana, con barre di errore che mostrano la deviazione standard.",
+      "classes": ""
+    }
+  ]
+}

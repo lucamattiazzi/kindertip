@@ -6,9 +6,16 @@ import { useState } from "react"
 import { BrowserView, MobileView } from 'react-device-detect'
 import Select from 'react-select'
 import { Sparklines, SparklinesCurve } from "react-sparklines"
-import { Diary, FoodRating } from "../lib/types"
+import { Diary, FoodRating, RendererProps } from "../lib/types"
 import { getBestFoods } from "../lib/utils"
 
+const COLUMNS: ColDef[] = [
+  { field: "name", headerName: "Piatto", suppressMovable: true },
+  { field: "weightedRating", headerName: "Rating", suppressMovable: true, cellRenderer: (p: RendererProps<number>) => p.value.toFixed(2) },
+  { field: "votes", headerName: "Trend", suppressMovable: true, cellRenderer: TrendRenderer },
+  { field: "votes", headerName: "Occorrenze", suppressMovable: true, cellRenderer: (p: RendererProps<number[]>) => p.value.length },
+  { field: "avg", headerName: "Media", suppressMovable: true, cellRenderer: (p: RendererProps<number>) => p.value.toFixed(2)},
+]
 interface DiaryProps {
   diary?: Diary
 }
@@ -18,19 +25,15 @@ interface DeviceDiaryProps {
   columns: ColDef[]
 }
 
-interface RendererProps<T> {
-  value: T
-}
 
 function TrendRenderer(p: RendererProps<number[]>) {
   return (
     <div>
-      <Sparklines data={p.value} limit={10} width={100} height={20} margin={3}>
+      <Sparklines data={p.value} min={0} max={10} limit={p.value.length} width={100} height={20} margin={3}>
         <SparklinesCurve />
       </Sparklines>
     </div>
   )
-  return 
 }
 
 export function MobileDiaryComponent(p: DeviceDiaryProps) {
@@ -46,6 +49,7 @@ export function MobileDiaryComponent(p: DeviceDiaryProps) {
         <div className="px-2">Dato:</div>
         <div className="w-full">
           <Select
+            isSearchable={false}
             options={selectOptions}
             defaultValue={selectOptions[selectedIdx]}
             onChange={(o) => setSelectedIdx(selectOptions.findIndex((f) => f.value === o?.value))}
@@ -70,21 +74,14 @@ function DesktopDiaryComponent(p: DeviceDiaryProps) {
 export function DiaryComponent(p: DiaryProps) {
   if (!p.diary) return (<></>)
   const bestFoods = getBestFoods(p.diary)
-  const columns: ColDef[] = [
-    { field: "name", headerName: "Piatto", suppressMovable: true },
-    { field: "weightedRating", headerName: "Rating", suppressMovable: true, cellRenderer: (p: RendererProps<number>) => p.value.toFixed(2) },
-    { field: "votes", headerName: "Trend", suppressMovable: true, cellRenderer: TrendRenderer },
-    { field: "votes", headerName: "Occorrenze", suppressMovable: true, cellRenderer: (p: RendererProps<number[]>) => p.value.length },
-    { field: "avg", headerName: "Media", suppressMovable: true, cellRenderer: (p: RendererProps<number>) => p.value.toFixed(2)},
-  ]
   return (
     <>
       <h1 className="text-xl text-bold text-center mb-2">Piatti</h1>
       <BrowserView>
-        <DesktopDiaryComponent bestFoods={bestFoods} columns={columns} />
+        <DesktopDiaryComponent bestFoods={bestFoods} columns={COLUMNS} />
       </BrowserView>
       <MobileView>
-        <MobileDiaryComponent bestFoods={bestFoods} columns={columns} />
+        <MobileDiaryComponent bestFoods={bestFoods} columns={COLUMNS} />
       </MobileView>
     </>
   )

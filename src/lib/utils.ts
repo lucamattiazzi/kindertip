@@ -2,7 +2,7 @@ import { groupBy, mean, sortBy } from "lodash-es"
 import { weekNumber } from "weeknumber"
 import { Diary, DiaryPage, FoodRating, Kid, RawDiaryPage } from "./types"
 
-const COMMON_FOODS_CONSTANT = 6
+const COMMON_FOODS_CONSTANT = 3
 const MINUMUM_VOTES = 1
 
 export const quantityToVote = (quantity: number) => [10, 7, 3, 0][quantity - 1]
@@ -29,18 +29,19 @@ export function extractKid(pages: RawDiaryPage[]): Kid {
 }
 
 export function refinePages(rawPages: RawDiaryPage[]): DiaryPage[] {
-  const pages = rawPages.map(rawPage => {
-    if (rawPage.posts.length === 0) return { food: [], date: "nope" }
-    const date = rawPage.posts[0].cDate.slice(0, 10)
-    const foodPosts = rawPage.posts.filter(post => post.course)
-    if (foodPosts.length === 0) return { food: [], date }
-    const food = foodPosts.flatMap(post => {
-      const course = post.course || ""
-      const subpostFood = post.subposts.flatMap(s => ({ course, name: s.name, quantity: s.kid.qty.n }))
-      return subpostFood
+  const pages = rawPages
+    .filter(p => p.posts.length > 0)
+    .map(rawPage => {
+      const date = rawPage.posts[0].cDate.slice(0, 10)
+      const foodPosts = rawPage.posts.filter(post => post.course)
+      if (foodPosts.length === 0) return { food: [], date }
+      const food = foodPosts.flatMap(post => {
+        const course = post.course || ""
+        const subpostFood = post.subposts.flatMap(s => ({ course, name: s.name, quantity: s.kid.qty.n }))
+        return subpostFood
+      })
+      return { food, date }
     })
-    return { food, date }
-  })
   return pages
 }
 

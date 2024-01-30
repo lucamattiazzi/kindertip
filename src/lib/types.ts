@@ -55,3 +55,7 @@ export interface FoodRating {
   avg: number
   weightedRating: number
 }
+
+export interface RendererProps<T> {
+  value: T
+}

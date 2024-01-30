@@ -1,5 +1,6 @@
 import { FormEvent, useState } from 'react'
 import { getAuth, getDiary } from '../lib/apiUtils'
+import { storeDiary } from '../lib/cache'
 import { Diary } from '../lib/types'
 
 interface LoginProps {
@@ -10,7 +11,7 @@ interface LoginProps {
 export function Login(p: LoginProps) {
   const [username, _setUsername] = useState('')
   const [password, _setPassword] = useState('')
-  const [remember, _setRemember] = useState(false)
+  const [remember, _setRemember] = useState(true)
 
   const setUsername = (e: FormEvent<HTMLInputElement>) => _setUsername((e.target as HTMLInputElement).value)
   const setPassword = (e: FormEvent<HTMLInputElement>) => _setPassword((e.target as HTMLInputElement).value)
@@ -25,7 +26,7 @@ export function Login(p: LoginProps) {
     p.setDiary(diary)
     p.setLoading(false)
     if (!remember) return
-    localStorage.setItem("token", JSON.stringify(diary.auth))
+    storeDiary(diary)
   }
 
   return (
@@ -33,14 +34,14 @@ export function Login(p: LoginProps) {
       <div className="mb-6 text-center">
         Fai login con le credenziali di KinderTap
       </div>
-      <div className="flex flex-col items-center justify-around">
+      <div className="flex flex-col items-center justify-around mb-4">
         <input className="mb-2 px-2" onInput={setUsername} type="text" placeholder="Username" value={username} />
         <input className="px-2" onInput={setPassword} type="password" placeholder="Password" value={password} />
       </div>
 
       <div className="flex justify-center text-xs mb-8">
-        <input id="remember" type="checkbox" checked={remember} onChange={setRemember}/>
-        <label htmlFor="remember">Salva le credenziali in locale</label>
+        <input id="remember" type="checkbox" checked={remember} onChange={setRemember} className="mr-2"/>
+        <label htmlFor="remember">Ricordati di me</label>
       </div>
 
       <div className="flex justify-center text-sm mb-8">
