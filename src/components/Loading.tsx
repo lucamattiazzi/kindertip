@@ -14,7 +14,11 @@ function getNextString(currentText: string) {
   return nextValue
 }
 
-export function Loading() {
+interface LoadingProps {
+  loading: number
+}
+
+export function Loading(p: LoadingProps) {
   const [text, setText] = useState('')
 
 
@@ -27,8 +31,11 @@ export function Loading() {
   }, [text])
 
   return (
-    <div className="absolute w-full h-full top-0 left-0 bg-red-300/95 py-8 flex items-center justify-center text-5xl z-50">
-      {text}
-    </div>
+    <>
+      <div className="absolute w-full h-full top-0 left-0 bg-red-300/95 py-8 flex flex-col items-center justify-center text-5xl z-50">
+        <span className="mb-4">{text}</span>
+        <span>{`${Math.ceil(p.loading)}%`}</span>
+      </div>
+    </>
   )
 }

@@ -22,7 +22,6 @@ interface SubPost {
 }
 
 interface Post {
-  cDate: string
   course?: string
   subposts: SubPost[]
 }
@@ -36,6 +35,7 @@ export interface Food {
 export interface RawDiaryPage {
   posts: Post[]
   kid: Kid
+  date: string
 }
 
 export interface DiaryPage {
@@ -52,6 +52,7 @@ export interface Diary {
 export interface FoodRating {
   name: string
   votes: number[]
+  dates: string[]
   avg: number
   weightedRating: number
 }
@@ -59,3 +60,5 @@ export interface FoodRating {
 export interface RendererProps<T> {
   value: T
 }
+
+export type AdvancementFn = (perc: number) => void

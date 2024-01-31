@@ -1,0 +1,4179 @@
+{
+  "results": [
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Frutta fresca",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta al pomodoro",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Nasello gratinato",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Insalata verde",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-09-19"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Frutta fresca",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta alla crema di rapa rossa",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Petto di pollo al limone",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Erbette all'olio",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Yougurt bianco",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-09-20"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Lasagne estive (asparagi e ricotta)",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Insalata di pomodori e cetrioli",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Melone",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-09-21"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Minestra di riso integrale con i carciofi",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Fagioli cannellini in insalata",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Carote crude in insalata",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-09-22"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pastina in brodo con verdure",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Frittata",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Fagiolini in insalata",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Uva",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-09-25"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Orzo perlato agli asparagi",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Polpette di merluzzo",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Insalata verde",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-09-26"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta al pomodoro e piselli",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Carote in insalata",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-09-27"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Farro al pesto",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Pizza di vitellone",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Zucchine alla menta",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Pera",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-09-28"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta con crema ai peperoni",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Platessa al forno",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Insalata verde",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Banana",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-09-29"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Riso alla crema di piselli",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Cavolfiori gratinati",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-10-02"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Vellutata di zucchine con crostini",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Petto di pollo al forno",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Insalata mista",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-10-03"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta integrale con pomodoro e basilico",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Merluzzo gratinato",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Melanzane, zucchine e cipollotti trifolati",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Pesca",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-10-04"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Farro in insalata con verdure",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Provola",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Insalata verde",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-10-05"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "secondCourse",
+          "subposts": [
+            {
+              "name": "Purea di fagioli",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Carote crude tritate",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Pasta al pesto",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Banana",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-10-06"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta integrale alla crema di melanzane",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Carote sbollentate",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Pera",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-10-09"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Cous cous con verdure cotte miste",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Tacchino agli aromi",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Spinacini crudi in insalata",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Yougurt bianco",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-10-10"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta al pomodoro e olive",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Uova strapazzate",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Zucchine alla menta",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-10-11"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Riso basmati con verdure",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Crocchette di ceci",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-10-12"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Risotto con zucchine e curcuma",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Platessa olio, limone e prezzemolo",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Pomodori in insalata",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Banana",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-10-13"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Crema di lenticchie decorticate con riso integrale",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Patate e fagiolini all'olio",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Uva",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-10-16"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta al pomodoro",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Nasello gratinato",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Insalata verde e rossa",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Pera",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-10-17"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta alla crema di rapa rossa",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Petto di pollo al limone",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Erbette all'olio",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-10-18"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Lasagne estive (asparagi e ricotta)",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Insalata di pomodori e cetrioli",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Yougurt bianco",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-10-19"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Minestra di riso integrale con i carciofi",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Fagioli cannellini in insalata",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Carote crude in insalata",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Banana",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-10-20"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pastina in brodo con verdure",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Frittata",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Fagiolini in insalata",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Pera",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-10-23"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Orzo perlato agli asparagi",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Polpette di merluzzo",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Insalata mista",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Uva",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-10-24"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta al pomodoro e piselli",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Carote in insalata",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Melone",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-10-25"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Farro al pesto",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Pizza di vitellone",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Zucchine alla menta",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Yougurt bianco",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-10-26"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta con crema ai peperoni",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Platessa al forno",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Lattughino in insalata",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Banana",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Banana",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-10-27"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Riso alla crema di piselli",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Cavolfiori gratinati",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Pera",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-10-30"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [],
+      "date": "2023-10-31"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Yougurt bianco",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-11-02"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Risotto allo zafferano",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Filetti di nasello impanati",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Broccoletti verdi in insalata",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-11-03"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta e fagioli",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Fagiolini in insalata",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Banana",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-11-06"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Minestra di cous cous",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Bocconcini di tacchino allo yogurt",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Finocchi e arancia in insalata",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Melone",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-11-07"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Minestrone di verdure con pesto fresco e farro",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Bastoncini artigianali di pesce",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Insalata spinacino",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Yougurt bianco",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-11-08"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta integrale con crema di cavolfiore",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Frittata di porri",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Carote crude olio e limone",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Pera",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-11-09"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Risotto alla pescatora",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Cavolo viola saltato",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Banana",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-11-10"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta e piselli",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Cavolo saltato",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Frutta fresca",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Banana",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-11-13"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta con crema di broccoli",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Formaggio caprino",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Cubotti di barbabietola",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-11-14"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Lasagne al forno con ragù (pollo, tacchino e fichi secchi)",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Carote crude olio e limone",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Yougurt bianco",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-11-15"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Minestrone di verdure con riso integrale",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Nasello al cartoccio",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Purea di patate",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-11-16"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta al pomodoro",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Frittata",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Spinaci all'olio",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-11-17"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pastina in brodo vegetale",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Formaggio primo sale",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Fagiolini olio e limone",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Banana",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-11-20"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Riso con verdure saltate",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Platessa all'arancia",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Purea di zucchine",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Pera",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-11-21"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Pera",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta integrale al pesto",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Polpette di legumi e verdure",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Carote gratinate",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-11-22"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Orzotto allo zafferano",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Scaloppine di tacchino al limone",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Verza stufata con mele renette a pezzetti e chiodi di garofano",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Yougurt bianco",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-11-23"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta al ragù di pesce",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Zucca al forno",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Banana",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-11-24"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Brodo di verdura con pastina e lenticchie",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Carote agli aromi",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Banana",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-11-27"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta integrale al pesto",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Platessa agli agrumi",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Verza julienne",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-11-28"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Polenta con ragù di vitellone",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Finocchi gratinati",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-11-29"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [],
+      "date": "2023-11-30"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta e fagioli",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Fagiolini in insalata",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Banana",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-12-04"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Minestra di cous cous",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Bocconcini di tacchino allo yogurt",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Finocchi e arancia in insalata",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-12-05"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Minestrone di verdure con pesto fresco e farro",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Bastoncini artigianali di pesce",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Insalata spinacino",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Yougurt bianco",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-12-06"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta e piselli",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Cavolo saltato",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Banana",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-12-11"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta con crema di broccoli",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Formaggio caprino",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Cubotti di barbabietola",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-12-12"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Lasagne al forno con ragù (pollo, tacchino e fichi secchi)",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Carote crude olio e limone",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-12-13"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Minestrone di verdure con riso integrale",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Nasello al cartoccio",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Purea di patate",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Yougurt bianco",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-12-14"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta al pomodoro",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Frittata",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Spinaci all'olio",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-12-15"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pastina in brodo vegetale",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Formaggio provola dolce",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Fagiolini olio e limone",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-12-18"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [],
+      "date": "2023-12-19"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta integrale al pesto",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Polpette di legumi e verdure",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Carote gratinate",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-12-20"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-12-21"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta al ragù di pesce",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Zucca al forno",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-12-22"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Brodo di verdure con lenticchie",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Carote sbollentate",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-12-27"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Risotto allo zafferano",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Filetti di nasello impanati",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Broccoletti verdi in insalata",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Banana",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-12-28"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Crema di zucca con crostini",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Carote crude tritate",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Caprino",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2023-12-29"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Minestra di cous cous",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Bocconcini di tacchino allo yogurt",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Finocchi e arancia in insalata",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Banana",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2024-01-02"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Minestrone di verdure con pesto fresco e farro",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Bastoncini artigianali di pesce",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Insalata spinacino",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2024-01-03"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta integrale con crema di cavolfiore",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Frittata di porri",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Carote crude olio e limone",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2024-01-04"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Risotto alla pescatora",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Cavolo viola saltato",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2024-01-05"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta e fagioli",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Fagiolini in insalata",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2024-01-08"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta con crema di broccoli",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Formaggio caprino",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            },
+            {
+              "name": "Cubotti di barbabietola",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2024-01-09"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Lasagne al forno con ragù (pollo, tacchino e fichi secchi)",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            },
+            {
+              "name": "Carote crude olio e limone",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2024-01-10"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Minestrone di verdure con riso integrale",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Nasello al cartoccio",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Purea di patate",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2024-01-11"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pasta al pomodoro",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Frittata",
+              "kid": {
+                "qty": {
+                  "n": 2
+                }
+              }
+            },
+            {
+              "name": "Spinaci all'olio",
+              "kid": {
+                "qty": {
+                  "n": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Banana",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2024-01-12"
+    },
+    {
+      "kid": {
+        "lastName": "PARAPICCHIO",
+        "name": "BINGO",
+        "id": "ITA036BIEL.maronn"
+      },
+      "posts": [
+        {
+          "course": "fruit",
+          "subposts": [
+            {
+              "name": "Mela",
+              "kid": {
+                "qty": {
+                  "n": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "course": "firstCourse",
+          "subposts": [
+            {
+              "name": "Pastina in brodo vegetale",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Formaggio provola dolce",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            },
+            {
+              "name": "Fagiolini olio e limone",
+              "kid": {
+                "qty": {
+                  "n": 3
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "date": "2024-01-15"
+    }
+  ],
+  "nextDate": null
+}

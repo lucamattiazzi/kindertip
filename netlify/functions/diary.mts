@@ -1,10 +1,11 @@
 const START_DATE = new Date(2023, 9, 5) // creation date of kindertap for kindergarden
-const MAX_DURATION = 7000 // 7 seconds
-const BATCH_SIZE = 5
+const MAX_DURATION = 5000 // 5 seconds
+const BATCH_SIZE = 50
 
 interface DiaryResult extends Record<string, string | number> { }
 
 const error = (code: number, msg: string) => new Response(msg, { status: code })
+const TEST_DATA = require("./test.json")
 
 function buildDatesList(from: Date, to: Date): string[] {
   const list: string[] = []
@@ -23,6 +24,7 @@ export default async (evt: Request) => {
   const start = Date.now()
   if (evt.method !== 'POST') return error(405, 'Method Not Allowed')
   const { token, id, location, startDate = START_DATE } = await evt.json()
+  if (token === 'test') return new Response(JSON.stringify(TEST_DATA))
   if (!token || !id || !location) return error(400, 'Missing token/id/location')
   const firstDate = new Date(startDate)
   const dates = buildDatesList(firstDate, new Date())
@@ -40,7 +42,7 @@ export default async (evt: Request) => {
         }
       })
       const body = await response.json() as DiaryResult
-      return body
+      return { ...body, date }
     })
     const batchResults = await Promise.all(promises)
     results.push(...batchResults)

@@ -1,3 +1,8 @@
+const TEST_DATA = {
+  token: "test",
+  kids: [{ id: "bingo" }]
+}
+
 function extractToken(headers: Headers, key: string): string | null {
   const cookieString = headers.get('set-cookie')
   if (!cookieString) return null
@@ -17,6 +22,7 @@ export default async (evt: Request) => {
   if (evt.method !== 'POST') return error(405, 'Method Not Allowed')
   const { username, password } = await evt.json()
   if (!username || !password) return error(400, 'Missing username or password')
+  if (username === 'test' && password === 'test') return new Response(JSON.stringify(TEST_DATA))
   const body = { username, password, authSource: "mobileApp", source: "mobileApp-android" }
   const response = await fetch('https://api.kindertap.com/v1/auth/', {
     method: 'POST',

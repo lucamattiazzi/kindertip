@@ -8,9 +8,9 @@ const MINUMUM_VOTES = 1
 export const quantityToVote = (quantity: number) => [10, 7, 3, 0][quantity - 1]
 
 export function getBestFoods(diary: Diary): FoodRating[] {
-  const foods = diary.pages.flatMap(p => p.food)
+  const foods = diary.pages.flatMap(p => p.food.map(f => ({ ...f, date: p.date })))
   const grouped = groupBy(foods, f => f.name)
-  const allVotes = Object.entries(grouped).map(([k, v]) => ({ name: k, votes: v.map(f => quantityToVote(f.quantity)) }))
+  const allVotes = Object.entries(grouped).map(([k, v]) => ({ name: k, votes: v.map(f => quantityToVote(f.quantity)), dates: v.map(f => f.date) }))
   const filteredVotes = allVotes.filter(v => v.votes.length > MINUMUM_VOTES)
   const totalAvg = mean(filteredVotes.flatMap(v => v.votes))
   const votesWithAvgs = filteredVotes.map(v => ({ ...v, avg: mean(v.votes) }))
@@ -32,7 +32,7 @@ export function refinePages(rawPages: RawDiaryPage[]): DiaryPage[] {
   const pages = rawPages
     .filter(p => p.posts.length > 0)
     .map(rawPage => {
-      const date = rawPage.posts[0].cDate.slice(0, 10)
+      const { date } = rawPage
       const foodPosts = rawPage.posts.filter(post => post.course)
       if (foodPosts.length === 0) return { food: [], date }
       const food = foodPosts.flatMap(post => {

@@ -1,16 +1,12 @@
+import { useAtom } from "jotai"
 import { capitalize } from "lodash-es"
+import { Header } from "../components/Header"
 import { clearDiary } from "../lib/cache"
-import { Diary } from "../lib/types"
+import { diaryAtom } from "../state"
 
-interface ListProp {
-  goToDiary: () => void
-  goToTrend: () => void
-  goToWeek: () => void
-  diary?: Diary
-}
-
-export function Home(p: ListProp) {
-  const name = capitalize(p.diary?.kid.name || "...")
+export function Home() {
+  const [diary] = useAtom(diaryAtom)
+  const name = capitalize(diary?.kid.name || "...")
 
   function logout() {
     clearDiary()
@@ -19,16 +15,17 @@ export function Home(p: ListProp) {
 
   return (
     <>
+      <Header component="home" />
       <div className="text-center text-3xl mb-9">Diario di {name}</div>
       <div className="flex flex-col items-start w-full px-8 text-xl">
         <div className="flex items-center justify-center cursor-pointer mb-5">
-          <div onClick={p.goToDiary}>📋 - Guarda la <b>classifica piatti</b></div>
+          <a href="/diary">📋 - Guarda la <b>classifica piatti</b></a>
         </div>
         <div className="flex items-center justify-center cursor-pointer mb-5">
-          <div onClick={p.goToTrend}>📈 - Guarda l'<b>andamento mensile e annuale</b></div>
+          <a href="/trend">📈 - Guarda l'<b>andamento mensile e annuale</b></a>
         </div>
         <div className="flex items-center justify-center cursor-pointer">
-          <div onClick={p.goToWeek}>📅 - Guarda la <b>settimana pasti</b></div>
+          <a href="/week">📅 - Guarda la <b>settimana pasti</b></a>
         </div>
         <hr className="w-48 h-1 mx-auto bg-gray-100 border-0 rounded dark:bg-gray-700 my-16"/>
         <div className="flex items-center justify-center mb-5">

@@ -1,15 +1,13 @@
 import { AgCartesianAxisOptions, AgCartesianSeriesOptions, AgChartOptions } from 'ag-charts-community'
 import { AgChartsReact } from 'ag-charts-react'
+import { useAtom } from 'jotai'
 import { groupBy, sum, uniqBy } from "lodash-es"
 import { weekNumber } from 'weeknumber'
+import { Header } from '../components/Header'
 import { GIORNI } from '../lib/constants'
 import { MarkerWithError } from '../lib/markers'
-import { Diary } from "../lib/types"
 import { quantityToVote } from "../lib/utils"
-
-interface WeekProps {
-  diary?: Diary
-}
+import { diaryAtom } from '../state'
 
 interface DayData {
   day: string
@@ -30,10 +28,10 @@ const DAY_SCATTER_AXES: AgCartesianAxisOptions[] = [
   { type: "number", position: "left", title: { text: "Media" }},
 ]
 
-export function Week(p: WeekProps) {
-  if (!p.diary) return null
+export function Week() {
+  const [diary] = useAtom(diaryAtom)
 
-  const weekData = p.diary.pages
+  const weekData = diary!.pages
     .filter(p => p.food.length > 0)
     .map(p => {
       const average = sum(p.food.map(f => quantityToVote(f.quantity))) / p.food.length
@@ -64,17 +62,20 @@ export function Week(p: WeekProps) {
   const dayScatterOptions: AgChartOptions = { data: dayScatterData, series: DAY_SCATTER_SERIES, axes: DAY_SCATTER_AXES }
 
   return (
-    <div className="flex flex-col w-full">
+    <>
+      <Header component="week" />
+      <div className="flex flex-col w-full">
 
-      <div className="text-xl font-bold text-center mb-2">Tutte le settimane</div>
-      <div className="flex flex-col justify-between mb-6">
-        <AgChartsReact options={weekOptions} />
-      </div>
+        <div className="text-xl font-bold text-center mb-2">Tutte le settimane</div>
+        <div className="flex flex-col justify-between mb-6">
+          <AgChartsReact options={weekOptions} />
+        </div>
 
-      <div className="text-xl font-bold text-center mb-2">Media giorno per giorno</div>
-      <div className="flex flex-col justify-between mb-6">
-        <AgChartsReact options={dayScatterOptions} />
+        <div className="text-xl font-bold text-center mb-2">Media giorno per giorno</div>
+        <div className="flex flex-col justify-between mb-6">
+          <AgChartsReact options={dayScatterOptions} />
+        </div>
       </div>
-    </div>
+    </>
   )
 }
