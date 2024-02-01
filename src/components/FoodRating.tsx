@@ -8,8 +8,8 @@ interface FoodRatingProps {
 }
 
 const COLUMNS: ColDef[] = [
-  { field: "date", headerName: "Data", suppressMovable: true},
-  { field: "vote", headerName: "Voto", suppressMovable: true} 
+  { field: "date", headerName: "Data", suppressMovable: true, flex: 1 },
+  { field: "vote", headerName: "Voto", suppressMovable: true, flex: 1 } 
 ]
 
 export function FoodRatingComponent(p: FoodRatingProps) {
@@ -29,13 +29,13 @@ export function FoodRatingComponent(p: FoodRatingProps) {
         </div>
         <div className="pb-4 w-2/3 flex flex-row justify-between items-center">
           <span>Media: </span>
-          <span>{p.foodRating.avg}</span>
+          <span>{p.foodRating.avg.toFixed(2)}</span>
         </div>
         <div className="pb-12 w-2/3 flex flex-row justify-between items-center">
           <span>Occorrenze: </span>
           <span>{p.foodRating.votes.length}</span>
         </div>
-        <div className="w-full h-80">
+        <div className="w-full h-80 w-80">
           <div className="ag-theme-material" style={{ width: '100%', height: '100%' }}>
             <AgGridReact rowData={votes} columnDefs={COLUMNS}/>
           </div>

@@ -18,6 +18,7 @@ export function DesktopDiaryComponent(p: DeviceDiaryProps) {
   )
 }
 
+
 export function MobileDiaryComponent(p: DeviceDiaryProps) {
   const [selectedIdx, setSelectedIdx] = useState(0)
   const [fixedColumn, ...otherColumns] = p.columns
