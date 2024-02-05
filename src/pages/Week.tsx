@@ -67,12 +67,12 @@ export function Week() {
       <div className="flex flex-col w-full">
 
         <div className="text-xl font-bold text-center mb-2">Tutte le settimane</div>
-        <div className="flex flex-col justify-between mb-6">
+        <div className="flex flex-col justify-between mb-6 pointer-events-none">
           <AgChartsReact options={weekOptions} />
         </div>
 
         <div className="text-xl font-bold text-center mb-2">Media giorno per giorno</div>
-        <div className="flex flex-col justify-between mb-6">
+        <div className="flex flex-col justify-between mb-6 pointer-events-none">
           <AgChartsReact options={dayScatterOptions} />
         </div>
       </div>
