@@ -23,6 +23,7 @@ interface SubPost {
 
 interface Post {
   course?: string
+  name: string
   subposts: SubPost[]
 }
 
@@ -30,6 +31,7 @@ export interface Food {
   course: string
   name: string
   quantity: number
+  text: string
 }
 
 export interface RawDiaryPage {

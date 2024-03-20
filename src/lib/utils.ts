@@ -33,12 +33,11 @@ export function refinePages(rawPages: RawDiaryPage[]): DiaryPage[] {
     .filter(p => p.posts.length > 0)
     .map(rawPage => {
       const { date } = rawPage
-      const foodPosts = rawPage.posts.filter(post => post.course)
-      if (foodPosts.length === 0) return { food: [], date }
-      const food = foodPosts.flatMap(post => {
-        const course = post.course || ""
-        const subpostFood = post.subposts.flatMap(s => ({ course, name: s.name, quantity: s.kid.qty.n }))
-        return subpostFood
+      const food = rawPage.posts.flatMap(post => {
+        if (!post.subposts) return []
+        const course = post.course || post.subtype || ""
+        const subpostFood = post.subposts.flatMap(s => ({ course, name: s.name, quantity: s.kid?.qty?.n, text: s.kid?.qty?.text }))
+        return subpostFood.filter(f => f.quantity !== undefined)
       })
       return { food, date }
     })

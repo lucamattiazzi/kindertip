@@ -1,12 +1,16 @@
 import { useAtom } from "jotai"
 import { capitalize } from "lodash-es"
 import { Header } from "../components/Header"
+import { Today } from "../components/Today"
 import { clearDiary } from "../lib/cache"
 import { diaryAtom } from "../state"
+
 
 export function Home() {
   const [diary] = useAtom(diaryAtom)
   const name = capitalize(diary?.kid.name || "...")
+  const formattedDate = new Date().toLocaleDateString("it-IT", { weekday: "long", year: "numeric", month: "long", day: "numeric" })
+  const lastPage = diary?.pages.slice(-1)[0]
 
   function logout() {
     clearDiary()
@@ -15,8 +19,13 @@ export function Home() {
 
   return (
     <>
-      <Header component="home" />
-      <div className="text-center text-3xl mb-9">Diario di {name}</div>
+      <Header />
+      <div className="text-left text-3xl font-bold">Il diario di {name}</div>
+      <div className="text-left text-sm mb-9 font-light">{formattedDate}</div>
+
+      { lastPage && <Today page={lastPage} /> }
+
+
       <div className="flex flex-col items-start w-full px-8 text-xl">
         <div className="flex items-center justify-center cursor-pointer mb-5">
           <a href="/diary">📋 - Guarda la <b>classifica piatti</b></a>

@@ -25,7 +25,7 @@ export function Trend() {
   
   return (
     <>
-      <Header component="trend" />
+      <Header />
       <div className="flex flex-col w-full">
         <div className="text-xl font-bold text-center">Trend per: </div>
         <Select

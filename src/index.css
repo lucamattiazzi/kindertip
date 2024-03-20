@@ -31,6 +31,10 @@ html {
   animation: text-animation 5s infinite;
 }
 
+.text-offwhite {
+  color: #efefef;
+}
+
 @keyframes text-animation {
   0% {
     filter: hue-rotate(0deg);

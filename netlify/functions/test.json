@@ -14,7 +14,8 @@
               "name": "Frutta fresca",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -27,7 +28,8 @@
               "name": "Pasta al pomodoro",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -35,7 +37,8 @@
               "name": "Nasello gratinato",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -43,7 +46,8 @@
               "name": "Insalata verde",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -66,7 +70,8 @@
               "name": "Frutta fresca",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -79,7 +84,8 @@
               "name": "Pasta alla crema di rapa rossa",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -87,7 +93,8 @@
               "name": "Petto di pollo al limone",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -95,7 +102,8 @@
               "name": "Erbette all'olio",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -108,7 +116,8 @@
               "name": "Yougurt bianco",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -131,7 +140,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -144,7 +154,8 @@
               "name": "Lasagne estive (asparagi e ricotta)",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -152,7 +163,8 @@
               "name": "Insalata di pomodori e cetrioli",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -165,7 +177,8 @@
               "name": "Melone",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -188,7 +201,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -201,7 +215,8 @@
               "name": "Minestra di riso integrale con i carciofi",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -209,7 +224,8 @@
               "name": "Fagioli cannellini in insalata",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -217,7 +233,8 @@
               "name": "Carote crude in insalata",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -240,7 +257,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -253,7 +271,8 @@
               "name": "Pastina in brodo con verdure",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -261,7 +280,8 @@
               "name": "Frittata",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -269,7 +289,8 @@
               "name": "Fagiolini in insalata",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -282,7 +303,8 @@
               "name": "Uva",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -305,7 +327,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -318,7 +341,8 @@
               "name": "Orzo perlato agli asparagi",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -326,7 +350,8 @@
               "name": "Polpette di merluzzo",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -334,7 +359,8 @@
               "name": "Insalata verde",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -357,7 +383,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -370,7 +397,8 @@
               "name": "Pasta al pomodoro e piselli",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -378,7 +406,8 @@
               "name": "Carote in insalata",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -401,7 +430,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -414,7 +444,8 @@
               "name": "Farro al pesto",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -422,7 +453,8 @@
               "name": "Pizza di vitellone",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -430,7 +462,8 @@
               "name": "Zucchine alla menta",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -443,7 +476,8 @@
               "name": "Pera",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -466,7 +500,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -479,7 +514,8 @@
               "name": "Pasta con crema ai peperoni",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -487,7 +523,8 @@
               "name": "Platessa al forno",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -495,7 +532,8 @@
               "name": "Insalata verde",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -508,7 +546,8 @@
               "name": "Banana",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -531,7 +570,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -544,7 +584,8 @@
               "name": "Riso alla crema di piselli",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -552,7 +593,8 @@
               "name": "Cavolfiori gratinati",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -575,7 +617,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -588,7 +631,8 @@
               "name": "Vellutata di zucchine con crostini",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -596,7 +640,8 @@
               "name": "Petto di pollo al forno",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -604,7 +649,8 @@
               "name": "Insalata mista",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -627,7 +673,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -640,7 +687,8 @@
               "name": "Pasta integrale con pomodoro e basilico",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -648,7 +696,8 @@
               "name": "Merluzzo gratinato",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -656,7 +705,8 @@
               "name": "Melanzane, zucchine e cipollotti trifolati",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -669,7 +719,8 @@
               "name": "Pesca",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -692,7 +743,8 @@
               "name": "Farro in insalata con verdure",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -700,7 +752,8 @@
               "name": "Provola",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -708,7 +761,8 @@
               "name": "Insalata verde",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -731,7 +785,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -744,7 +799,8 @@
               "name": "Purea di fagioli",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -752,7 +808,8 @@
               "name": "Carote crude tritate",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -760,7 +817,8 @@
               "name": "Pasta al pesto",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -773,7 +831,8 @@
               "name": "Banana",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -796,7 +855,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -809,7 +869,8 @@
               "name": "Pasta integrale alla crema di melanzane",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -817,7 +878,8 @@
               "name": "Carote sbollentate",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -830,7 +892,8 @@
               "name": "Pera",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -853,7 +916,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -866,7 +930,8 @@
               "name": "Cous cous con verdure cotte miste",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -874,7 +939,8 @@
               "name": "Tacchino agli aromi",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -882,7 +948,8 @@
               "name": "Spinacini crudi in insalata",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -895,7 +962,8 @@
               "name": "Yougurt bianco",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -918,7 +986,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -931,7 +1000,8 @@
               "name": "Pasta al pomodoro e olive",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -939,7 +1009,8 @@
               "name": "Uova strapazzate",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -947,7 +1018,8 @@
               "name": "Zucchine alla menta",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -970,7 +1042,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -983,7 +1056,8 @@
               "name": "Riso basmati con verdure",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -991,7 +1065,8 @@
               "name": "Crocchette di ceci",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -1014,7 +1089,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -1027,7 +1103,8 @@
               "name": "Risotto con zucchine e curcuma",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -1035,7 +1112,8 @@
               "name": "Platessa olio, limone e prezzemolo",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -1043,7 +1121,8 @@
               "name": "Pomodori in insalata",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -1056,7 +1135,8 @@
               "name": "Banana",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -1079,7 +1159,8 @@
               "name": "Crema di lenticchie decorticate con riso integrale",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -1087,7 +1168,8 @@
               "name": "Patate e fagiolini all'olio",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -1100,7 +1182,8 @@
               "name": "Uva",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -1123,7 +1206,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -1136,7 +1220,8 @@
               "name": "Pasta al pomodoro",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -1144,7 +1229,8 @@
               "name": "Nasello gratinato",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -1152,7 +1238,8 @@
               "name": "Insalata verde e rossa",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -1165,7 +1252,8 @@
               "name": "Pera",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -1188,7 +1276,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -1201,7 +1290,8 @@
               "name": "Pasta alla crema di rapa rossa",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -1209,7 +1299,8 @@
               "name": "Petto di pollo al limone",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -1217,7 +1308,8 @@
               "name": "Erbette all'olio",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -1240,7 +1332,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -1253,7 +1346,8 @@
               "name": "Lasagne estive (asparagi e ricotta)",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -1261,7 +1355,8 @@
               "name": "Insalata di pomodori e cetrioli",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -1274,7 +1369,8 @@
               "name": "Yougurt bianco",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -1297,7 +1393,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -1310,7 +1407,8 @@
               "name": "Minestra di riso integrale con i carciofi",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -1318,7 +1416,8 @@
               "name": "Fagioli cannellini in insalata",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -1326,7 +1425,8 @@
               "name": "Carote crude in insalata",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -1339,7 +1439,8 @@
               "name": "Banana",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -1362,7 +1463,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -1375,7 +1477,8 @@
               "name": "Pastina in brodo con verdure",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -1383,7 +1486,8 @@
               "name": "Frittata",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -1391,7 +1495,8 @@
               "name": "Fagiolini in insalata",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -1404,7 +1509,8 @@
               "name": "Pera",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -1427,7 +1533,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -1440,7 +1547,8 @@
               "name": "Orzo perlato agli asparagi",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -1448,7 +1556,8 @@
               "name": "Polpette di merluzzo",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -1456,7 +1565,8 @@
               "name": "Insalata mista",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -1469,7 +1579,8 @@
               "name": "Uva",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -1492,7 +1603,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -1505,7 +1617,8 @@
               "name": "Pasta al pomodoro e piselli",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -1513,7 +1626,8 @@
               "name": "Carote in insalata",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -1526,7 +1640,8 @@
               "name": "Melone",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -1549,7 +1664,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -1562,7 +1678,8 @@
               "name": "Farro al pesto",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -1570,7 +1687,8 @@
               "name": "Pizza di vitellone",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -1578,7 +1696,8 @@
               "name": "Zucchine alla menta",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -1591,7 +1710,8 @@
               "name": "Yougurt bianco",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -1614,7 +1734,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -1627,7 +1748,8 @@
               "name": "Pasta con crema ai peperoni",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -1635,7 +1757,8 @@
               "name": "Platessa al forno",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -1643,7 +1766,8 @@
               "name": "Lattughino in insalata",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -1656,7 +1780,8 @@
               "name": "Banana",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -1664,7 +1789,8 @@
               "name": "Banana",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -1687,7 +1813,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -1700,7 +1827,8 @@
               "name": "Riso alla crema di piselli",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -1708,7 +1836,8 @@
               "name": "Cavolfiori gratinati",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -1721,7 +1850,8 @@
               "name": "Pera",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -1753,7 +1883,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -1766,7 +1897,8 @@
               "name": "Yougurt bianco",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -1789,7 +1921,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -1802,7 +1935,8 @@
               "name": "Risotto allo zafferano",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -1810,7 +1944,8 @@
               "name": "Filetti di nasello impanati",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -1818,7 +1953,8 @@
               "name": "Broccoletti verdi in insalata",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -1841,7 +1977,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -1854,7 +1991,8 @@
               "name": "Pasta e fagioli",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -1862,7 +2000,8 @@
               "name": "Fagiolini in insalata",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -1875,7 +2014,8 @@
               "name": "Banana",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -1898,7 +2038,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -1911,7 +2052,8 @@
               "name": "Minestra di cous cous",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -1919,7 +2061,8 @@
               "name": "Bocconcini di tacchino allo yogurt",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -1927,7 +2070,8 @@
               "name": "Finocchi e arancia in insalata",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -1940,7 +2084,8 @@
               "name": "Melone",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -1963,7 +2108,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -1976,7 +2122,8 @@
               "name": "Minestrone di verdure con pesto fresco e farro",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -1984,7 +2131,8 @@
               "name": "Bastoncini artigianali di pesce",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -1992,7 +2140,8 @@
               "name": "Insalata spinacino",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -2005,7 +2154,8 @@
               "name": "Yougurt bianco",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -2028,7 +2178,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -2041,7 +2192,8 @@
               "name": "Pasta integrale con crema di cavolfiore",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -2049,7 +2201,8 @@
               "name": "Frittata di porri",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -2057,7 +2210,8 @@
               "name": "Carote crude olio e limone",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -2070,7 +2224,8 @@
               "name": "Pera",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -2093,7 +2248,8 @@
               "name": "Risotto alla pescatora",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -2101,7 +2257,8 @@
               "name": "Cavolo viola saltato",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -2114,7 +2271,8 @@
               "name": "Banana",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -2137,7 +2295,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -2150,7 +2309,8 @@
               "name": "Pasta e piselli",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -2158,7 +2318,8 @@
               "name": "Cavolo saltato",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -2166,7 +2327,8 @@
               "name": "Frutta fresca",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -2179,7 +2341,8 @@
               "name": "Banana",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -2202,7 +2365,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -2215,7 +2379,8 @@
               "name": "Pasta con crema di broccoli",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -2223,7 +2388,8 @@
               "name": "Formaggio caprino",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -2231,7 +2397,8 @@
               "name": "Cubotti di barbabietola",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -2254,7 +2421,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -2267,7 +2435,8 @@
               "name": "Lasagne al forno con ragù (pollo, tacchino e fichi secchi)",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -2275,7 +2444,8 @@
               "name": "Carote crude olio e limone",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -2288,7 +2458,8 @@
               "name": "Yougurt bianco",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -2311,7 +2482,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -2324,7 +2496,8 @@
               "name": "Minestrone di verdure con riso integrale",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -2332,7 +2505,8 @@
               "name": "Nasello al cartoccio",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -2340,7 +2514,8 @@
               "name": "Purea di patate",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -2363,7 +2538,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -2376,7 +2552,8 @@
               "name": "Pasta al pomodoro",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -2384,7 +2561,8 @@
               "name": "Frittata",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -2392,7 +2570,8 @@
               "name": "Spinaci all'olio",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -2415,7 +2594,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -2428,7 +2608,8 @@
               "name": "Pastina in brodo vegetale",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -2436,7 +2617,8 @@
               "name": "Formaggio primo sale",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -2444,7 +2626,8 @@
               "name": "Fagiolini olio e limone",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -2457,7 +2640,8 @@
               "name": "Banana",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -2480,7 +2664,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -2493,7 +2678,8 @@
               "name": "Riso con verdure saltate",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -2501,7 +2687,8 @@
               "name": "Platessa all'arancia",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -2509,7 +2696,8 @@
               "name": "Purea di zucchine",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -2522,7 +2710,8 @@
               "name": "Pera",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -2545,7 +2734,8 @@
               "name": "Pera",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -2558,7 +2748,8 @@
               "name": "Pasta integrale al pesto",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -2566,7 +2757,8 @@
               "name": "Polpette di legumi e verdure",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -2574,7 +2766,8 @@
               "name": "Carote gratinate",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -2597,7 +2790,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -2610,7 +2804,8 @@
               "name": "Orzotto allo zafferano",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -2618,7 +2813,8 @@
               "name": "Scaloppine di tacchino al limone",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -2626,7 +2822,8 @@
               "name": "Verza stufata con mele renette a pezzetti e chiodi di garofano",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -2639,7 +2836,8 @@
               "name": "Yougurt bianco",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -2662,7 +2860,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -2675,7 +2874,8 @@
               "name": "Pasta al ragù di pesce",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -2683,7 +2883,8 @@
               "name": "Zucca al forno",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -2696,7 +2897,8 @@
               "name": "Banana",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -2719,7 +2921,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -2732,7 +2935,8 @@
               "name": "Brodo di verdura con pastina e lenticchie",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -2740,7 +2944,8 @@
               "name": "Carote agli aromi",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -2753,7 +2958,8 @@
               "name": "Banana",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -2776,7 +2982,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -2789,7 +2996,8 @@
               "name": "Pasta integrale al pesto",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -2797,7 +3005,8 @@
               "name": "Platessa agli agrumi",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -2805,7 +3014,8 @@
               "name": "Verza julienne",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -2828,7 +3038,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -2841,7 +3052,8 @@
               "name": "Polenta con ragù di vitellone",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -2849,7 +3061,8 @@
               "name": "Finocchi gratinati",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -2881,7 +3094,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -2894,7 +3108,8 @@
               "name": "Pasta e fagioli",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -2902,7 +3117,8 @@
               "name": "Fagiolini in insalata",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -2915,7 +3131,8 @@
               "name": "Banana",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -2938,7 +3155,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -2951,7 +3169,8 @@
               "name": "Minestra di cous cous",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -2959,7 +3178,8 @@
               "name": "Bocconcini di tacchino allo yogurt",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -2967,7 +3187,8 @@
               "name": "Finocchi e arancia in insalata",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -2990,7 +3211,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -3003,7 +3225,8 @@
               "name": "Minestrone di verdure con pesto fresco e farro",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -3011,7 +3234,8 @@
               "name": "Bastoncini artigianali di pesce",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -3019,7 +3243,8 @@
               "name": "Insalata spinacino",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -3032,7 +3257,8 @@
               "name": "Yougurt bianco",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -3055,7 +3281,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -3068,7 +3295,8 @@
               "name": "Pasta e piselli",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -3076,7 +3304,8 @@
               "name": "Cavolo saltato",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -3089,7 +3318,8 @@
               "name": "Banana",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -3112,7 +3342,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -3125,7 +3356,8 @@
               "name": "Pasta con crema di broccoli",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -3133,7 +3365,8 @@
               "name": "Formaggio caprino",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -3141,7 +3374,8 @@
               "name": "Cubotti di barbabietola",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -3164,7 +3398,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -3177,7 +3412,8 @@
               "name": "Lasagne al forno con ragù (pollo, tacchino e fichi secchi)",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -3185,7 +3421,8 @@
               "name": "Carote crude olio e limone",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -3208,7 +3445,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -3221,7 +3459,8 @@
               "name": "Minestrone di verdure con riso integrale",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -3229,7 +3468,8 @@
               "name": "Nasello al cartoccio",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -3237,7 +3477,8 @@
               "name": "Purea di patate",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -3250,7 +3491,8 @@
               "name": "Yougurt bianco",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -3273,7 +3515,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -3286,7 +3529,8 @@
               "name": "Pasta al pomodoro",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -3294,7 +3538,8 @@
               "name": "Frittata",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -3302,7 +3547,8 @@
               "name": "Spinaci all'olio",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -3325,7 +3571,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -3338,7 +3585,8 @@
               "name": "Pastina in brodo vegetale",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -3346,7 +3594,8 @@
               "name": "Formaggio provola dolce",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -3354,7 +3603,8 @@
               "name": "Fagiolini olio e limone",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -3386,7 +3636,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -3399,7 +3650,8 @@
               "name": "Pasta integrale al pesto",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -3407,7 +3659,8 @@
               "name": "Polpette di legumi e verdure",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -3415,7 +3668,8 @@
               "name": "Carote gratinate",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -3438,7 +3692,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -3461,7 +3716,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -3474,7 +3730,8 @@
               "name": "Pasta al ragù di pesce",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -3482,7 +3739,8 @@
               "name": "Zucca al forno",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -3505,7 +3763,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -3518,7 +3777,8 @@
               "name": "Brodo di verdure con lenticchie",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -3526,7 +3786,8 @@
               "name": "Carote sbollentate",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -3549,7 +3810,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -3562,7 +3824,8 @@
               "name": "Risotto allo zafferano",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -3570,7 +3833,8 @@
               "name": "Filetti di nasello impanati",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -3578,7 +3842,8 @@
               "name": "Broccoletti verdi in insalata",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -3591,7 +3856,8 @@
               "name": "Banana",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -3614,7 +3880,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -3627,7 +3894,8 @@
               "name": "Crema di zucca con crostini",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -3635,7 +3903,8 @@
               "name": "Carote crude tritate",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -3643,7 +3912,8 @@
               "name": "Caprino",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -3666,7 +3936,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -3679,7 +3950,8 @@
               "name": "Minestra di cous cous",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -3687,7 +3959,8 @@
               "name": "Bocconcini di tacchino allo yogurt",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -3695,7 +3968,8 @@
               "name": "Finocchi e arancia in insalata",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -3708,7 +3982,8 @@
               "name": "Banana",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -3731,7 +4006,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -3744,7 +4020,8 @@
               "name": "Minestrone di verdure con pesto fresco e farro",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -3752,7 +4029,8 @@
               "name": "Bastoncini artigianali di pesce",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -3760,7 +4038,8 @@
               "name": "Insalata spinacino",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -3783,7 +4062,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -3796,7 +4076,8 @@
               "name": "Pasta integrale con crema di cavolfiore",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -3804,7 +4085,8 @@
               "name": "Frittata di porri",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -3812,7 +4094,8 @@
               "name": "Carote crude olio e limone",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -3835,7 +4118,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -3848,7 +4132,8 @@
               "name": "Risotto alla pescatora",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -3856,7 +4141,8 @@
               "name": "Cavolo viola saltato",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -3879,7 +4165,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -3892,7 +4179,8 @@
               "name": "Pasta e fagioli",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -3900,7 +4188,8 @@
               "name": "Fagiolini in insalata",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -3923,7 +4212,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -3936,7 +4226,8 @@
               "name": "Pasta con crema di broccoli",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -3944,7 +4235,8 @@
               "name": "Formaggio caprino",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             },
@@ -3952,7 +4244,8 @@
               "name": "Cubotti di barbabietola",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -3975,7 +4268,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             }
@@ -3988,7 +4282,8 @@
               "name": "Lasagne al forno con ragù (pollo, tacchino e fichi secchi)",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             },
@@ -3996,7 +4291,8 @@
               "name": "Carote crude olio e limone",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -4019,7 +4315,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -4032,7 +4329,8 @@
               "name": "Minestrone di verdure con riso integrale",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -4040,7 +4338,8 @@
               "name": "Nasello al cartoccio",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -4048,7 +4347,8 @@
               "name": "Purea di patate",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -4071,7 +4371,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
@@ -4084,7 +4385,8 @@
               "name": "Pasta al pomodoro",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -4092,7 +4394,8 @@
               "name": "Frittata",
               "kid": {
                 "qty": {
-                  "n": 2
+                  "n": 2,
+                  "text": "Quasi tutto"
                 }
               }
             },
@@ -4100,7 +4403,8 @@
               "name": "Spinaci all'olio",
               "kid": {
                 "qty": {
-                  "n": 4
+                  "n": 4,
+                  "text": "Niente"
                 }
               }
             }
@@ -4113,7 +4417,8 @@
               "name": "Banana",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -4136,7 +4441,8 @@
               "name": "Mela",
               "kid": {
                 "qty": {
-                  "n": 1
+                  "n": 1,
+                  "text": "Tutto"
                 }
               }
             }
@@ -4149,7 +4455,8 @@
               "name": "Pastina in brodo vegetale",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -4157,7 +4464,8 @@
               "name": "Formaggio provola dolce",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             },
@@ -4165,7 +4473,8 @@
               "name": "Fagiolini olio e limone",
               "kid": {
                 "qty": {
-                  "n": 3
+                  "n": 3,
+                  "text": "Assaggio"
                 }
               }
             }
