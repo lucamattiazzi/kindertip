@@ -3,7 +3,6 @@ import { AgChartsReact } from 'ag-charts-react'
 import { useAtom } from 'jotai'
 import { groupBy, sum, uniqBy } from "lodash-es"
 import { weekNumber } from 'weeknumber'
-import { Header } from '../components/Header'
 import { GIORNI } from '../lib/constants'
 import { MarkerWithError } from '../lib/markers'
 import { quantityToVote } from "../lib/utils"
@@ -63,7 +62,6 @@ export function Week() {
 
   return (
     <>
-      <Header component="week" />
       <div className="flex flex-col w-full">
 
         <div className="text-xl font-bold text-center mb-2">Tutte le settimane</div>

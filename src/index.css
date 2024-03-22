@@ -10,9 +10,10 @@ body,
   padding: 0;
   margin: 0;
   min-height: 100%;
+  box-sizing: border-box;
 }
 
-html {
+#root {
   max-width: 70ch;
   padding: 1.5em 1em;
   margin: auto;
@@ -23,30 +24,8 @@ html {
   background-color: #efefef;
 }
 
-.color-text {
-  background: radial-gradient(#f80, #08f);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: text-animation 5s infinite;
-}
-
 .text-offwhite {
   color: #efefef;
-}
-
-@keyframes text-animation {
-  0% {
-    filter: hue-rotate(0deg);
-  }
-
-  50% {
-    filter: hue-rotate(360deg);
-  }
-
-  100% {
-    filter: hue-rotate(0deg);
-  }
 }
 
 .text-xxs {
@@ -57,4 +36,19 @@ html {
 .emoji-button {
   font-size: 25px;
   cursor: pointer;
+}
+
+.rounded-4xl {
+  border-radius: 2rem;
+}
+
+.ag-theme-quartz-dark {
+  --ag-borders: none;
+  --ag-row-border-style: dashed;
+  --ag-row-border-width: 2px;
+  --ag-row-border-color: rgb(150, 150, 200);
+  --ag-odd-row-background-color: rgba(4, 141, 166, 0.6);
+  --ag-background-color: rgba(4, 141, 166, 0.3);
+  --ag-header-background-color: rgba(4, 141, 166);
+  --ag-wrapper-border-radius: 20px
 }

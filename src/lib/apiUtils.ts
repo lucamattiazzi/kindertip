@@ -56,7 +56,7 @@ function getNextStartingDate(pages: DiaryPage[]): string | undefined {
   const sorted = dates.sort((a, b) => new Date(b).getTime() - new Date(a).getTime())
   const latest = sorted[0]
   const latestDate = new Date(latest)
-  latestDate.setDate(latestDate.getDate() + 1)
+  latestDate.setDate(latestDate.getDate())
   return latestDate.toISOString().split("T")[0]
 }
 
@@ -66,6 +66,6 @@ export async function getDiary(auth: Auth, existingDiary: Diary | null = null, s
   const rawPages = await getDiaryPages(auth.token, auth.id, startingDate, setLoading)
   const kid = existingDiary?.kid || extractKid(rawPages)
   const newPages = refinePages(rawPages)
-  const pages = [...existingPages, ...newPages]
+  const pages = [...existingPages.slice(0, -1), ...newPages]
   return { pages, auth, kid }
 }

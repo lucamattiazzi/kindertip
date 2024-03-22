@@ -23,7 +23,7 @@ interface SubPost {
 
 interface Post {
   course?: string
-  name: string
+  subtype?: string
   subposts: SubPost[]
 }
 

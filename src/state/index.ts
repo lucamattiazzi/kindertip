@@ -2,6 +2,7 @@ import { atom } from 'jotai'
 import { getDiary } from '../lib/apiUtils'
 import { clearDiary, retrieveDiary, storeDiary } from '../lib/cache'
 import { Diary } from '../lib/types'
+import { getBestFoods } from '../lib/utils'
 
 const cachedDiary = retrieveDiary()
 const _diaryAtom = atom<Diary | null>(cachedDiary)
@@ -19,3 +20,17 @@ diaryAtom.onMount = (set) => {
   if (!cachedDiary) return
   getDiary(cachedDiary!.auth, cachedDiary!).then(set)
 }
+
+export const bestFoodsAtom = atom(get => get(diaryAtom) ? getBestFoods(get(diaryAtom)!) : [])
+
+
+export function logout() {
+  clearDiary()
+  window.location.reload()
+}
+
+const _infoAtom = atom(false)
+export const infoAtom = atom(
+  (get) => get(_infoAtom),
+  (_, set, newValue: boolean) => set(_infoAtom, newValue)
+)

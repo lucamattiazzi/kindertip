@@ -1,6 +1,9 @@
 import { useAtom } from "jotai"
-import { diaryAtom } from "../state"
-import { Login } from "./Login"
+import { Login } from "../containers/Login"
+import { diaryAtom, infoAtom } from "../state"
+import { Footer } from "./Footer"
+import { Header } from "./Header"
+import { Info } from "./Info"
 
 interface LoginWrapperProps {
   component: () => JSX.Element
@@ -8,6 +11,14 @@ interface LoginWrapperProps {
 
 export function LoginWrapper(p: LoginWrapperProps) {
   const [diary] = useAtom(diaryAtom)
-  if (diary) return <p.component />
-  return <Login />
+  const [info] = useAtom(infoAtom)
+  if (!diary) return <Login />
+  return (
+    <>
+      <Header />
+      <p.component />
+      <Footer />
+      { info && <Info />}
+    </>
+  )
 }

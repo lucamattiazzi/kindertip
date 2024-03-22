@@ -1,8 +1,8 @@
 import { useAtom } from 'jotai'
 import { FormEvent, useState } from 'react'
+import { Loading } from '../components/Loading'
 import { getAuth, getDiary } from '../lib/apiUtils'
 import { diaryAtom } from '../state'
-import { Loading } from './Loading'
 
 export function Login() {
   const [username, _setUsername] = useState('')
@@ -42,7 +42,7 @@ export function Login() {
           <label htmlFor="remember">Ricordati di me</label>
         </div>
 
-        <div className="flex justify-center text-sm mb-8">
+        <div className="flex justify-center text-sm tracking-widest mb-8">
           <input className="bg-sky-500 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded" type="submit" value="Accedi" />
         </div>
       </form>

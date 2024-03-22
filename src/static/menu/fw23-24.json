@@ -1,0 +1,134 @@
+{
+  "name": "Autunno/Inverno 2023/24",
+  "startingMonday": "2024-03-17",
+  "weeks": [
+    {
+      "mon": [
+        "Brodo di verdura con pastina e lenticchie",
+        null,
+        "Carote agli aromi",
+        "Frutta fresca"
+      ],
+      "tue": [
+        "Pasta integrale al pesto",
+        "Platessa agli agrumi",
+        "Verza julienne",
+        "Frutta fresca"
+      ],
+      "wed": [
+        "Polenta con ragù di vitellone",
+        null,
+        "Finocchi gratinati",
+        "Frutta fresca"
+      ],
+      "thu": [
+        "Risotto allo zafferano",
+        "Filetti di nasello impanati",
+        "Broccoletti verdi in insalata",
+        "Frutta fresca"
+      ],
+      "fri": [
+        "Crema di zucca con crostini",
+        "Crescenza",
+        "Spinaci al forno",
+        "Frutta fresca"
+      ]
+    },
+    {
+      "mon": [
+        "Pasta e fagioli",
+        null,
+        "Fagiolini in insalata",
+        "Frutta fresca"
+      ],
+      "tue": [
+        "Minestra di cous cous",
+        "Bocconcini di tacchino allo yogurt",
+        "Finocchi e arancia in insalata",
+        "Frutta fresca"
+      ],
+      "wed": [
+        "Minestrone di verdure con pesto fresco e farro",
+        "Bastoncini artigianali di pesce",
+        "Insalata spinacino",
+        "Frutta fresca"
+      ],
+      "thu": [
+        "Pasta integrale con crema di cavolfiore",
+        "Frittata di porri",
+        "Carote crude olio e limone",
+        "Frutta fresca"
+      ],
+      "fri": [
+        "Risotto alla pescatora",
+        null,
+        "Cavolo viola saltato",
+        "Frutta fresca"
+      ]
+    },
+    {
+      "mon": [
+        "Pasta e piselli",
+        null,
+        "Cavolo saltato",
+        "Frutta fresca"
+      ],
+      "tue": [
+        "Pasta con crema di broccoli",
+        "Formaggio caprino",
+        "Cubotti di barbabietola",
+        "Frutta fresca"
+      ],
+      "wed": [
+        "Lasagne al forno con ragù (pollo, tacchino e fichi secchi)",
+        null,
+        "Carote crude olio e limone",
+        "Frutta fresca"
+      ],
+      "thu": [
+        "Minestrone di verdure con riso integrale",
+        "Nasello al cartoccio",
+        "Purea di patate",
+        "Frutta fresca"
+      ],
+      "fri": [
+        "Pasta al pomodoro",
+        "Frittata",
+        "Spinaci all'olio",
+        "Frutta fresca"
+      ]
+    },
+    {
+      "mon": [
+        "Pastina in brodo vegetale",
+        "Formaggio provola dolce",
+        "Fagiolini olio e limone",
+        "Frutta fresca"
+      ],
+      "tue": [
+        "Riso con verdure saltate",
+        "Platessa all'arancia",
+        "Cavoletti di Bruxelles",
+        "Frutta fresca"
+      ],
+      "wed": [
+        "Pasta integrale al pesto",
+        "Polpette di legumi e verdure",
+        "Carote gratinate",
+        "Frutta fresca"
+      ],
+      "thu": [
+        "Orzotto allo zafferano",
+        "Scaloppine di tacchino al limone",
+        "Verza stufata con mele renette a pezzettini e chiodi di garofano",
+        "Frutta fresca"
+      ],
+      "fri": [
+        "Pasta al ragù di pesce",
+        null,
+        "Zucca al forno",
+        "Frutta fresca"
+      ]
+    }
+  ]
+}

@@ -39,7 +39,7 @@ export function MobileDiaryComponent(p: DeviceDiaryProps) {
           />
         </div>
       </div>
-      <div className="ag-theme-material" style={{ height: 500 }}>
+      <div className="ag-theme-quartz-dark" style={{ height: 500 }}>
         <AgGridReact rowData={p.bestFoods} columnDefs={selectedColumns} onCellClicked={p.onCellClicked}/>
       </div>
     </>
