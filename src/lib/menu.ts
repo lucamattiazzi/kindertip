@@ -1,5 +1,7 @@
 import menu from "../static/menu/fw23-24.json"
 
+const ONE_WEEK = 7 * 24 * 60 * 60 * 1000
+
 interface Week {
   mon: string[]
   tue: string[]
@@ -14,10 +16,16 @@ interface RawMenu {
   weeks: Week[]
 }
 
-interface WeekMenu {
+export interface WeekMenu {
   name: string
   week: Week
-  weekNo: number
+  weekIdx: number
+  from: string
+  to: string
+}
+
+function formatDate(date: Date): string {
+  return date.toISOString().slice(0, 10).split("-").reverse().join("/")
 }
 
 function getLastMonday(): Date {
@@ -26,13 +34,15 @@ function getLastMonday(): Date {
   return date
 }
 
-export function getCurrentWeekMenu(): WeekMenu {
+export function getCurrentWeekMenu(delta: number = 0): WeekMenu {
   const { name, startingMonday, weeks } = menu as RawMenu
   const lastMonday = getLastMonday()
-  const deltaWeeks = Math.floor((lastMonday.getTime() - new Date(startingMonday).getTime()) / (7 * 24 * 60 * 60 * 1000))
-  const deltaWeeksRemainder = deltaWeeks % weeks.length + 1
-  const isWeekend = new Date().getDay() === 0 || new Date().getDay() === 6
-  const weekNo = isWeekend ? deltaWeeksRemainder + 1 : deltaWeeksRemainder
+  const deltaWeeks = delta + Math.floor((lastMonday.getTime() - new Date(startingMonday).getTime()) / (ONE_WEEK))
+  const weekIdx = deltaWeeks % weeks.length
+  const fromDate = new Date(lastMonday.getTime() + delta * ONE_WEEK)
+  const from = formatDate(fromDate)
+  const toDate = new Date(lastMonday.getTime() + (delta + 1) * ONE_WEEK)
+  const to = formatDate(toDate)
   const currentWeek = weeks[deltaWeeks % weeks.length]
-  return { name, week: currentWeek, weekNo }
+  return { name, week: currentWeek, from, to, weekIdx }
 }

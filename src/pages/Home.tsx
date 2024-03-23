@@ -38,7 +38,7 @@ export function Home() {
       <BestThree name={name} />
       <Link to="/diary" text="La classifica generale dei piatti" class="bg-cyan-500" />
       <Link to="/week" text="Come va l'appetito?" class="bg-yellow-400" />
-      <WeekMenu />
+      <WeekMenu/>
     </>
   )
 }

@@ -13,6 +13,6 @@ export function getRatingEmoji(bestFoods: FoodRating[], food: string): string {
   if (rating.weightedRating > 8) return "😄"
   if (rating.weightedRating > 6) return "😊"
   if (rating.weightedRating > 4) return "😐"
-  if (rating.weightedRating > 2) return "😞"
+  if (rating.weightedRating > 2) return "🙁"
   return "😖"
 }
