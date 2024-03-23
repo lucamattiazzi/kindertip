@@ -8,9 +8,11 @@ export function getEmoji(food: string): string {
 }
 
 export function getRatingEmoji(bestFoods: FoodRating[], food: string): string {
-  const ratingIndex = bestFoods.findIndex(f => f.name === food)
-  if (ratingIndex === -1) return "❓"
-  if (ratingIndex < bestFoods.length / 3) return "😊"
-  if (ratingIndex < 2 * bestFoods.length / 3) return "😐"
-  return "😕"
+  const rating = bestFoods.find(f => f.name === food)
+  if (!rating) return "❓"
+  if (rating.weightedRating > 8) return "😄"
+  if (rating.weightedRating > 6) return "😊"
+  if (rating.weightedRating > 4) return "😐"
+  if (rating.weightedRating > 2) return "😞"
+  return "😖"
 }

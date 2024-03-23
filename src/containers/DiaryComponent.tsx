@@ -28,7 +28,7 @@ export function MobileDiaryComponent(p: DeviceDiaryProps) {
 
   return (
     <>
-      <div className="flex flex-row items-center pb-2">
+      <div className="flex flex-row items-center pb-2 w-full">
         <div className="px-2">Dato:</div>
         <div className="w-full">
           <Select

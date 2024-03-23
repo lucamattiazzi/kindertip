@@ -14,7 +14,7 @@ interface LinkProps {
 
 function Link(p: LinkProps) {
   return (
-    <NavLink to={p.to}>
+    <NavLink to={p.to} className="w-full">
       <div className={`w-full px-8 py-8 rounded-4xl relative text-2xl text-center mb-10 ${p.class}`}>
         {p.text}
         <br />
@@ -32,8 +32,8 @@ export function Home() {
 
   return (
     <>
-      <div className="text-left text-3xl font-bold">Il diario di {name}</div>
-      <div className="text-left text-sm tracking-widest mb-9 font-light">{formattedDate}</div>
+      <div className="text-left text-3xl font-bold w-full">Il diario di {name}</div>
+      <div className="text-left text-sm tracking-widest mb-9 font-light w-full">{formattedDate}</div>
       <Day page={lastPage} />
       <BestThree name={name} />
       <Link to="/diary" text="La classifica generale dei piatti" class="bg-cyan-500" />

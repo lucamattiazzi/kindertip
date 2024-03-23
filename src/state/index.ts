@@ -21,6 +21,8 @@ diaryAtom.onMount = (set) => {
   getDiary(cachedDiary!.auth, cachedDiary!).then(set)
 }
 
+export const isLoggedAtom = atom(get => !!get(diaryAtom))
+
 export const bestFoodsAtom = atom(get => get(diaryAtom) ? getBestFoods(get(diaryAtom)!) : [])
 
 

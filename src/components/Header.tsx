@@ -7,7 +7,7 @@ export function Header() {
   const [, setInfo] = useAtom(infoAtom)
   return (
     <>
-      <div className="mb-10 w-full flex justify-between items-center">
+      <div className="my-10 w-full flex justify-between items-center">
         <NavLink to="/">
           <h1 className="text-3xl text-left font-bold mb-1 text-blue-800">KinderTip</h1>
         </NavLink>

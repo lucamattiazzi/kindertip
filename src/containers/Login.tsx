@@ -28,21 +28,21 @@ export function Login() {
 
   return (
     <>
-      <form onSubmit={getKidDiary}>
-        <div className="mb-6 text-center">
+      <form onSubmit={getKidDiary} className="w-full h-full">
+        <div className="mb-8 text-2xl">
           Fai login con le credenziali di KinderTap
         </div>
         <div className="flex flex-col items-center justify-around mb-4">
-          <input className="mb-2 px-2" onInput={setUsername} type="text" placeholder="Username" value={username} />
-          <input className="px-2" onInput={setPassword} type="password" placeholder="Password" value={password} />
+          <input className="mb-2 px-2 text-xl" onInput={setUsername} type="text" placeholder="Username" value={username} />
+          <input className="px-2 text-xl" onInput={setPassword} type="password" placeholder="Password" value={password} />
         </div>
 
-        <div className="flex justify-center text-xs mb-8">
+        <div className="flex justify-center text-sm mb-8">
           <input id="remember" type="checkbox" checked={remember} onChange={setRemember} className="mr-2"/>
           <label htmlFor="remember">Ricordati di me</label>
         </div>
 
-        <div className="flex justify-center text-sm tracking-widest mb-8">
+        <div className="flex justify-center text-xl tracking-widest mb-8">
           <input className="bg-sky-500 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded" type="submit" value="Accedi" />
         </div>
       </form>

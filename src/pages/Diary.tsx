@@ -27,7 +27,7 @@ export function DiaryComponent() {
       <BrowserView>
         <DesktopDiaryComponent bestFoods={bestFoods} onCellClicked={onCellClicked} columns={COLUMNS} />
       </BrowserView>
-      <MobileView>
+      <MobileView className="w-full h-full">
         <MobileDiaryComponent bestFoods={bestFoods} onCellClicked={onCellClicked} columns={COLUMNS} />
       </MobileView>
       { selectedRating && <FoodRatingComponent foodRating={selectedRating} onClick={() => setSelectedRating(null)}/> }
