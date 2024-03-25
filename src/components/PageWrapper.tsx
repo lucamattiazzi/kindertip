@@ -12,7 +12,7 @@ interface PageWrapperProps {
 export function PageWrapper(p: PageWrapperProps) {
   const [info] = useAtom(infoAtom)
   return (
-    <div className="w-full h-full flex flex-col justify-between items-center">
+    <div className={`w-full h-full flex flex-col justify-between items-center ${info ? 'overflow-hidden' : ''}`}>
       <Header />
       {p.children}
       <Footer />

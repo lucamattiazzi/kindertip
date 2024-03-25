@@ -62,7 +62,7 @@ export function Week() {
 
   return (
     <>
-      <div className="flex flex-col w-full">
+      <div className="flex flex-col w-full h-full">
 
         <div className="text-xl font-bold text-center mb-2">Tutte le settimane</div>
         <div className="flex flex-col justify-between mb-6 pointer-events-none">
