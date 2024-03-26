@@ -1,0 +1,28 @@
+{
+  "theme_color": "#ec4899",
+  "background_color": "#efefef",
+  "icons": [
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "icon512_maskable.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "512x512",
+      "src": "icon512_rounded.png",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "portrait",
+  "display": "minimal-ui",
+  "dir": "left",
+  "lang": "it-IT",
+  "name": "Kindertip",
+  "short_name": "Kindertip",
+  "scope": "https://kindertip.luca.toys",
+  "start_url": "https://kindertip.luca.toys",
+  "description": "Extracts and shows information from Kindertap working as an alternative frontend.",
+  "id": "https://kindertip.luca.toys"
+}
