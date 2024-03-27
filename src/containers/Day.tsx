@@ -1,5 +1,6 @@
 import { CanvasWithShape } from "../components/CanvasWithShape";
 import { DiaryPage } from "../lib/types";
+import { formatDate } from "../lib/utils";
 
 interface DayProps {
   page?: DiaryPage
@@ -8,8 +9,9 @@ interface DayProps {
 export function Day(p: DayProps) {
   if (!p.page) return null
   const { food, date } = p.page
-  const pageIsToday = new Date(date).toDateString() === new Date().toDateString()
-  const title = pageIsToday ? "Com'è andata oggi?" : `Com'è andata il ${new Date(date).toISOString().slice(0, 10)}?`
+  const pageDate = new Date(date)
+  const pageIsToday = pageDate.toDateString() === new Date().toDateString()
+  const title = pageIsToday ? "Com'è andata oggi?" : `Com'è andata il ${formatDate(pageDate)}?`
   return (
     <div className="flex flex-col items-start w-full px-8 py-8 bg-pink-500 rounded-4xl relative mb-10">
       <CanvasWithShape />

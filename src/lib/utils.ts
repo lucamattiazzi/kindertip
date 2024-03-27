@@ -1,11 +1,12 @@
 import { groupBy, mean, sortBy } from "lodash-es"
-import { weekNumber } from "weeknumber"
 import { Diary, DiaryPage, FoodRating, Kid, RawDiaryPage } from "./types"
 
 const COMMON_FOODS_CONSTANT = 3
 const MINUMUM_VOTES = 1
 
-export const quantityToVote = (quantity: number) => [10, 7, 3, 0][quantity - 1]
+export function quantityToVote(quantity: number) {
+  return [10, 7, 3, 0][quantity - 1]
+}
 
 export function getBestFoods(diary: Diary): FoodRating[] {
   const foods = diary.pages.flatMap(p => p.food.map(f => ({ ...f, date: p.date })))
@@ -44,19 +45,6 @@ export function refinePages(rawPages: RawDiaryPage[]): DiaryPage[] {
   return pages
 }
 
-export function weekGrouper(d: Date) {
-  const year = d.getFullYear()
-  const week = String(weekNumber(d)).padStart(2, "0")
-  return `${year}-${week}`
-}
-
-export function monthGrouper(d: Date) {
-  const year = d.getFullYear()
-  const month = String(d.getMonth() + 1).padStart(2, "0")
-  return `${year}-${month}`
-}
-
-export function yearGrouper(d: Date) {
-  const year = d.getFullYear()
-  return `${year}`
+export function formatDate(date: Date): string {
+  return date.toISOString().slice(0, 10).split("-").reverse().join("/")
 }

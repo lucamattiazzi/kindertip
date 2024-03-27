@@ -21,7 +21,7 @@ export function BestThree(p: DayProps) {
               <div className="text-left font-bold text-3xl mr-3">{idx + 1}</div>
               <div className="tracking-wider">{f.name}</div>
             </div>
-            <div className="text-left font-bold text-3xl">{getEmoji(f.name)}</div>
+            <div className="text-right font-bold text-3xl">{getEmoji(f.name)}</div>
           </div>
         ))}
       </div>

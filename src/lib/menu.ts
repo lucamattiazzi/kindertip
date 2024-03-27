@@ -1,4 +1,5 @@
 import menu from "../static/menu/fw23-24.json"
+import { formatDate } from "./utils"
 
 const ONE_WEEK = 7 * 24 * 60 * 60 * 1000
 
@@ -24,9 +25,6 @@ export interface WeekMenu {
   to: string
 }
 
-function formatDate(date: Date): string {
-  return date.toISOString().slice(0, 10).split("-").reverse().join("/")
-}
 
 function getLastMonday(): Date {
   const date = new Date()
