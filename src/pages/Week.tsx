@@ -55,7 +55,7 @@ const DAY_SCATTER_AXES: AgCartesianAxisOptions[] = [
 export function Week() {
   const [diary] = useAtom(diaryAtom)
   const [maWindow, setMaWindow] = useState(10)
-  if (!diary) return null
+  if (!diary) return <></>
 
   const handleWindowChange = (e: React.ChangeEvent<HTMLInputElement>) => setMaWindow(parseInt(e.target.value))
 
